@@ -1,0 +1,1082 @@
+*{
+    font-family: 'Work Sans';
+}
+body {
+    background-color: var(--background, #2B2B2B) !important; 
+}
+.navbar-default{
+    padding: 20px 50px !important;
+    background: var(--background, #2B2B2B);
+}
+.nav li a,.burger_menu a{
+    text-decoration: none !important;
+    color: #FFF !important;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.home_button{
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    height: 60px;
+    width: 150px;
+    gap: 12px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+}
+.topnav {
+    overflow: hidden;
+    background: var(--background, #2B2B2B);
+    position: relative;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    padding: 14px 16px;
+    display: block;
+}
+.topnav a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hero_section{
+    display: flex;
+    padding: 80px 195px !important;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.hero_section_text h1{
+    color: var(--white, #FFF);
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;    
+}
+.hero_section_text p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.hero_section_button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);   
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;  
+}
+.additional_info div h4{
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    text-transform: capitalize;   
+}
+.additional_info div h6{
+    color: var(--white, #FFF);
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;    
+}
+.hero_section div .card{
+    background-image: url(cover.png);
+    background-size: 100% 370px;
+    height: 510px;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+    padding-top: 400px !important;
+    padding-left: 20px !important;
+    background-color: #3B3B3B;
+    border: none; 
+}
+.hero_section .card h5{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;   
+}
+.hero_section .card div{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px;   
+}
+.trending_collection{
+    padding: 80px 175px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.trending_collection_text h3{
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.trending_collection_text h6{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;    
+}
+.trending_collection .main_card{
+    border-radius:20px ;
+    height: 330px;
+}
+.trending_collerction_cards .card{
+    background-color: transparent;
+    border: none;
+}
+.little_cards{
+    justify-content: center;
+    margin-inline: auto;
+    margin-top:15px ;
+}
+.little_cards div{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+.little_cards .c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.trending_collerction_cards .card h5{
+    margin-top: 15px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.trending_collerction_cards .avatar{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.top_rated_artists{
+    padding-left: 165px !important;
+    padding-right: 165px !important;
+    padding-top: 80px !important;
+    flex-direction: column;
+    gap: 60px;
+}
+.top_rated_artists_header{
+    justify-content: space-between;
+    align-items: end;
+}
+.top_rated_artists_header h3{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.top_rated_artists_header p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.top_rated_artists_header button{
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    gap: 12px;
+    height: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.artist_cards a{
+    text-decoration: none;
+}
+.artist_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px !important;
+    border-radius: 20px;
+    background: #3B3B3B;
+    height: 240px;    
+}
+.artist_card svg{
+    left: 20px;
+    top: 20px;
+}
+.artist_card .artist{
+    width: 120px;
+    height: 120px;
+}
+.artist_card h5{
+    color: #FFF;
+    text-align: center;    
+}
+.artist_card div div span:nth-child(1){
+    color: var(--caption-label-text, #858584);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.artist_card div div span:nth-child(2){
+    margin-left: 10px;
+    color: var(--text, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.brows_categories{
+    flex-direction: column;
+    gap: 60px;
+    padding:80px 165px !important;
+}
+.brows_categories h3{
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.category_cards div{
+    flex-direction: column;
+}
+.category_card{
+    padding: 15px;
+}
+.category_icon{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 20px 20px 0px 0px;
+}
+.blur{
+   backdrop-filter: blur(7px) ; 
+   border-radius: 20px 20px 0px 0px;
+}
+.collection_name{
+    display: flex;
+    padding: 20px 30px 25px 30px;
+    border-radius: 0px 0px 20px 20px;
+    background: rgba(255, 255, 255, 0.10);
+    align-items: flex-start;
+    align-self: stretch;   
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.category_card .art1{
+    background-image: url(Image\ Placeholder.png);
+}
+.category_card .art2{
+    background-image: url(Image\ Placeholder\ \(1\).png);
+}
+.category_card .art3{
+    background-image: url(Image\ Placeholder\ \(2\).png);
+}
+.category_card .art4{
+    background-image: url(Image\ Placeholder\ \(3\).png);
+}
+.category_card .art5{
+    background-image: url(Image\ Placeholder\ \(4\).png);
+}
+.category_card .art6{
+    background-image: url(Image\ Placeholder\ \(5\).png);
+}
+.category_card .art7{
+    background-image: url(Image\ Placeholder\ \(6\).png);
+}
+.category_card .art8{
+    background-image: url(Image\ Placeholder\ \(7\).png);
+}
+.Discover{
+    flex-direction: column;
+    gap:60px ;
+    padding: 80px 165px !important;
+}
+.discover_header{
+    align-items: end;
+    justify-content: space-between;
+}
+.discover_header_text h3{
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.discover_header_text p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;   
+}
+.discover_header button{
+    background: transparent;
+    height: 60px;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.nft_card .main_nft{
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nft_card .nft_footer{
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 0px 0px 20px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;  
+    background: #3B3B3B; 
+}
+.nft_card .nft_footer h5{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: capitalize;   
+}
+.nft_card .nft_footer div:nth-child(1) .avatar{
+    display: flex;
+    gap: 12px;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;     
+}
+.nft_card .nft_footer div:nth-child(2) div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.nft_card .nft_footer div:nth-child(2) div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.nft_card .nft_footer div:nth-child(2) div span:nth-child(1){
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;  
+}
+.nft_card .nft_footer div:nth-child(2) div span:nth-child(2){
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.nft_higlight{
+    padding: 360px 120px 60px 120px !important; 
+    justify-content: space-between;
+    align-items: end;
+    height: 640px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-image: url(IMG_7534.JPG);
+}
+.nft_higlight .caption{
+    flex-direction: column;
+    gap: 30px;
+}
+.nft_higlight .caption button:nth-child(1){
+    border-radius: 20px;
+    background: #3B3B3B;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 151px;
+    height: 44px;
+    border: none;
+}
+.nft_higlight .caption h2{
+    color: #FFF;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.nft_higlight .nft_button,.nft_button_mobile{
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    color: var(--background, #2B2B2B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.timer{
+    margin-inline: auto;
+    width: 295px !important;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+    display: flex;
+    padding: 30px !important;
+    flex-direction: column;
+    gap: 10px;
+}
+.timer h3{
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+.timer div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer span{
+    display: flex;
+    align-items: stretch;
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+}
+.how_it_works{
+    padding: 80px 160px 80px 160px !important;
+    flex-direction: column;
+    gap: 48px;
+}
+.how_it_works_header h3{
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+.how_it_works_header p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.info-card{
+    display: flex;
+    height: 440px;
+    padding: 10px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+}
+.info-card h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.info-card p{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.subscribe_widget{
+    padding: 40px 160px 80px 160px !important;
+}
+.widget{
+    border-radius: 20px;
+    background: #3B3B3B;
+    padding: 60px;
+    justify-content: space-between;
+}
+.widget .main_img{
+    height: 310px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Photo.png);
+}
+.widget h3{
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+    text-transform: capitalize;
+}
+.widget p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.email{
+    height: 60px;
+    padding: 16px 0px 16px 20px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    color: var(--background, #2B2B2B);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border: none;
+}
+.subscribe_button{
+    left: 55%;
+    height: 60px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.footer{
+    padding: 40px 160px !important;
+    background: var(--background-secondary, #3B3B3B);
+    flex-direction: column;
+    gap: 30px; 
+}
+.footer div div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer div div div{
+    flex-direction: row;
+}
+.footer span{
+    color: #CCC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.footer h5{
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: capitalize;
+}
+.footer p{
+    color: #CCC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+/*sign up*/
+.img{
+    height: auto;
+}
+.create_account .text h2{
+    color: var(--white, #FFF);
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    text-transform: capitalize;
+}
+.create_account .text p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.create_account{
+    padding: 60px 80px !important;
+}
+.inputs svg{
+    margin: 13px 20px;
+}
+.screen input{
+    height: 45px;
+    padding-left: 52px;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    color: var(--background, #2B2B2B);
+}
+.screen button{
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;    
+}
+
+/*top creators*/
+.creators .img{
+    background-image: url(Avatar\ Placeholder_top_creators\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+.creators .row ,.screen{
+    --bs-gutter-x: 0rem !important;
+}
+.info{
+    box-sizing: border-box;
+    padding: 40px 115px !important;
+}
+.creators .avatar{
+    margin-top: -60px;
+}
+.creators h2{
+    color: var(--white, #FFF);
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.creators h4{
+    color: var(--white, #FFF);
+    font-family: Space Mono !important;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.creators h5{
+    color: #858584;
+    font-family: Space Mono !important;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.creators p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.creators .buttons{
+    display: flex;
+}
+.creators .buttons button{
+    border: none;
+    border-radius: 20px;
+    height: 60px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.creators .buttons button:nth-child(1){
+    background: var(--call-to-action, #A259FF);
+}
+.creators .buttons button:nth-child(2){
+    background: transparent;
+    border: 2px solid var(--call-to-action, #A259FF) !important;
+}
+.card_section{
+    padding: 80px 115px !important;
+    background: var(--background-secondary, #3B3B3B);
+    border-bottom: 2px solid var(--background, #2B2B2B);
+}
+.card_section .nft_footer{
+    background-color: #2B2B2B;
+}
+.frame h5{
+    margin: 0px;
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.frame button{
+    border: none;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+    color: #FFF;
+    font-family: Space Mono !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.tab{
+    height: 60px;
+}
+.active h5, .tab:hover h5{
+    color:var(--white, #FFF);
+}
+.active button, .tab:hover button{
+    background-color:#858584;
+}
+.active, .tab:hover{
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+}
+/*wallet*/
+.wallet_buttons button{
+    height: 72px;
+    border-radius: 20px;
+    border: 1px solid var(--Call-to-Action, #A259FF);
+    background:transparent;
+    color: var(--White, #FFF);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-left: 40px;
+
+}
+.connect-wallet{
+    padding-top: 100px !important;
+}
+@media screen and (max-width: 900px) {
+    .navbar-default{
+        display: none !important;
+    }
+    .hero_section{
+        padding: 40px 60px !important;
+    }
+    .hero_section div .card{
+        margin-top: -570px;
+        padding-top: 228px !important;
+        background-size: 100% 210px !important;
+        height: 315px;
+    }
+    .hero_section_button{
+        margin-top: 385px;
+    }
+    .hero_section_text h1{
+        font-size: 28px;
+        line-height: 140%;   
+    }
+    .hero_section_text p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .additional_info div h4{
+        font-size: 22px;
+        line-height: 160%;
+    }
+    .additional_info div h6{
+        font-size: 16px;
+        line-height: 140%;  
+    }
+    .trending_collection{
+        padding: 40px 35px !important;
+        gap: 40px;
+    }
+    .mashroom_card,.robot_card{
+        display: none !important;
+    }
+    .top_rated_artists{
+        padding: 40px 30px !important;
+    }
+    .artist_card{
+        flex-direction: row;
+        height: 100px;
+    }
+    .artist_card .artist{
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+    }
+    .card6,.card7,.card8,.card9,.card10,.card11,.card12{
+        display: none;
+    }
+    .artist_card h5{
+        text-align:start;    
+    }
+    .artist_card svg{
+        left: 12px;
+        top: 13px;
+    }
+    .top_rated_artists_header button{
+        margin-top: 600px;
+    }
+    .artist_cards{
+        margin-top: -720px !important;
+    }
+    .brows_categories{
+        padding: 40px 30px !important;
+        gap: 40px;
+    }
+    .category_card{
+        padding: 10px !important;
+    }
+    .category_icon{
+        height: 140px;
+    }
+    .collection_name{
+        font-size: 16px;
+        padding: 20px 20px;
+    }       
+    .brows_categories h3{
+        font-size: 28px;
+    }
+    .Discover{
+        padding: 40px 30px 200px 30px !important;
+    }
+    .discover_header_text h3{
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .discover_header_text p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .discover_header button{
+        margin-top: 1600px !important;
+    }
+    .Discover .discover_cards{
+        margin-top: -1725px !important;
+    }
+    .nft_higlight{
+        padding: 120px 30px 40px 30px !important;
+    }
+    .how_it_works{
+        padding: 40px 30px!important;
+        gap: 40px;
+    }
+    .how_it_works_header h3{
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .how_it_works_header p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .info-card{
+        padding: 20px !important;
+        flex-direction: row;
+        height:150px ;
+    }
+    .info-card h5{
+        text-align: start;
+        font-size: 16px;
+        
+    }
+    .info-card p{
+        font-size: 12px;
+        text-align: start;
+    }
+    .subscribe_widget{
+        padding: 40px 30px 100px 30px !important;
+    }
+    .widget{
+        background: transparent;
+        padding: 0px !important;
+        gap: 30px;
+    }
+    .subscribe_widget .main_img{
+        height: 255px;
+    }
+    
+    .button_input{
+        flex-direction: column;
+        gap: 40px;
+        height: auto;
+    }
+    .subscribe_button{
+        top: 80px;
+        left: 0px;
+    }
+    .footer{
+        padding: 40px 30px 120px!important;
+    }
+    .nft_button{
+        display: none;
+    }
+    .line{
+        margin-top:80px ;
+    }
+    /*sign up*/
+    .create_account{
+        padding: 30px !important;
+    }
+    .create_account .text h2{
+        text-align: center;
+        font-size: 38px;
+        line-height: 120%; 
+    }
+    .create_account .text p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 140%; 
+    }
+    /*creators*/
+    .buttons_desktop{
+        display: none !important;
+    }
+    .info{
+        padding: 30px !important;
+    }
+    .creators .img{
+        background-image: url(avatar\ Image\ PlaceHolder.png);
+        height: 250px;
+    }
+    .creators img{
+        align-items: flex-start;
+    }
+    .leptop{
+        display: none;
+    }
+    .card_section{
+        padding: 80px 15px !important;
+    }
+    .tab button{
+        display: none;
+    }
+    .creators h2{
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .creators h4{
+        font-size: 22px;
+        line-height: 160%;
+    }
+    .creators h5,p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .creators .avatar{
+        justify-content: center;
+    }
+
+    .wallet_buttons button img{
+        width: 30px !important ;
+        height: 30px !important;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .nft_button_mobile{
+        display: none;
+    }
+    .topnav{
+        display: none;
+    }
+    .buttons_phone{
+        display: none !important;
+    }
+    .creators .avatar{
+        margin-left: 115px;
+    }
+  }
